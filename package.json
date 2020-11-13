@@ -1,6 +1,6 @@
 {
   "name": "@astvision/react-easy-crop",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React component to crop images/videos with easy interactions",
   "homepage": "https://ricardo-ch.github.io/react-easy-crop/",
   "keywords": [
