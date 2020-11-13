@@ -1,6 +1,6 @@
 {
-  "name": "react-easy-crop",
-  "version": "3.3.0",
+  "name": "@astvision/react-easy-crop",
+  "version": "0.0.1",
   "description": "A React component to crop images/videos with easy interactions",
   "homepage": "https://ricardo-ch.github.io/react-easy-crop/",
   "keywords": [
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ricardo-ch/react-easy-crop"
+    "url": "git+https://github.com/digz6666/react-easy-crop.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -106,5 +106,13 @@
   },
   "jest": {
     "preset": "ts-jest"
+  },
+  "bugs": {
+    "url": "https://github.com/digz6666/react-easy-crop/issues"
+  },
+  "main": "webpack.config.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
   }
 }

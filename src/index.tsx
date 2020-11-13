@@ -106,6 +106,10 @@ class Cropper extends React.Component<CropperProps, State> {
     }
 
     if (!this.props.disableAutomaticStylesInjection) {
+      // ssr hackfix
+      if (typeof window == 'undefined')
+        return;
+
       this.styleRef = document.createElement('style')
       this.styleRef.setAttribute('type', 'text/css')
       this.styleRef.innerHTML = cssStyles
